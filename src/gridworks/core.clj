@@ -1,6 +1,6 @@
 (ns gridworks.core
   (:require [gridworks.grid :refer [grids]])
-  (:require [gridworks advanced expert]))
+  (:require [gridworks intermediate advanced expert]))
 
 (defn -main [& args]
   (let [constraints (vals (ns-publics (symbol (first args))))
